@@ -1,0 +1,15 @@
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.AssemblyInfo.cs
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.sourcelink.json
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\bin\Debug\net8.0\WebShopApp.Infrastructure.deps.json
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\bin\Debug\net8.0\WebShopApp.Infrastructure.runtimeconfig.json
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\bin\Debug\net8.0\WebShopApp.Infrastructure.dll
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\bin\Debug\net8.0\WebShopApp.Infrastructure.pdb
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.dll
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\refint\WebShopApp.Infrastructure.dll
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.pdb
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\WebShopApp.Infrastructure.genruntimeconfig.cache
+C:\Users\David Nikolv\Desktop\JABFE\Shop\WebShop2024\WebShopApp\WebShopApp.Infrastructure\obj\Debug\net8.0\ref\WebShopApp.Infrastructure.dll
