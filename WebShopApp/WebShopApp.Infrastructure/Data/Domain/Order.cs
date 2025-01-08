@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebShopApp.Infrastructure.Domain;
+namespace WebShopApp.Infrastructure.Data.Domain;
 
 public class Order
 {

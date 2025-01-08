@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WebShopApp.Infrastructure.Domain;
+namespace WebShopApp.Infrastructure.Data.Domain;
 
 public class Category
 {

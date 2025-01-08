@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using WebShopApp.Infrastructure.Domain;
+using WebShopApp.Infrastructure.Data.Domain;
 
 namespace WebShopApp.Areas.Identity.Pages.Account
 {
