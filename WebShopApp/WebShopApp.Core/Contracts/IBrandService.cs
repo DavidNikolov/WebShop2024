@@ -1,10 +1,18 @@
-﻿using WebShopApp.Infrastructure.Data.Domain;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace WebShopApp.Core.Contracts;
+using WebShopApp.Infrastructure.Data.Domain;
+using WebShopApp.Infrastructure.Data.Domain;
 
-public interface IBrandService
+namespace WebShopApp.Core.Contracts
 {
-    List<Brand> GetBrands();
-    Brand GetBrandById(int id);
-    List<Product> GetProductsByBrandId(int id);
+    public interface IBrandService
+    {
+        List<Brand> GetBrands();
+        Brand GetBrandById(int brandId);
+        List<Product> GetProductsByBrand(int brandId);
+    }
 }

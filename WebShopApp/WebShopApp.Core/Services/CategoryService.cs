@@ -1,30 +1,39 @@
-﻿using WebShopApp.Core.Contracts;
-using WebShopApp.Infrastructure.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 using WebShopApp.Infrastructure.Data.Domain;
+using WebShopApp.Core.Contracts;
+using WebShopApp.Infrastructure.Data;
 
-namespace WebShopApp.Core.Services;
-
-public class CategoryService:ICategoryService
+namespace WebShop2024.Core.Services
 {
-    private readonly ApplicationDbContext _context;
-
-    public CategoryService(ApplicationDbContext context)
+    public class CategoryService : ICategoryService
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public List<Category> GetCategories()
-    {
-        return _context.Categories.ToList();
-    }
+        public CategoryService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-    public Category GetCategoryById(int id)
-    {
-        return _context.Categories.Find(id);    
-    }
+        public Category GetCategoryById(int id)
+        {
+            return _context.Categories.Find(id);
+        }
 
-    public List<Product> GetProductsByCategoryId(int id)
-    {
-        return _context.Products.Where(p => p.CategoryId == id).ToList();
+        public List<Category> GetCategories()
+        {
+            return _context.Categories.ToList();
+        }
+
+        public List<Product> GetProductsByCategory(int id)
+        {
+            return _context.Products
+                .Where(x => x.CategoryId == id)
+                .ToList();
+        }
     }
 }

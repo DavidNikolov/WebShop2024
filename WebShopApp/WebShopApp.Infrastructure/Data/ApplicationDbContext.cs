@@ -11,7 +11,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         Database.EnsureCreated();
     }
-
+    
     public DbSet<Brand> Brands { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Order> Orders { get; set; }

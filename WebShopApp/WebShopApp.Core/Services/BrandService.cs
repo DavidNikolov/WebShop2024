@@ -1,30 +1,39 @@
-﻿using WebShopApp.Core.Contracts;
-using WebShopApp.Infrastructure.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 using WebShopApp.Infrastructure.Data.Domain;
+using WebShopApp.Core.Contracts;
+using WebShopApp.Infrastructure.Data;
 
-namespace WebShopApp.Core.Services;
-
-public class BrandService:IBrandService
+namespace WebShopApp.Core.Services
 {
-    private readonly ApplicationDbContext _context;
-
-    public BrandService(ApplicationDbContext context)
+    public class BrandService : IBrandService
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public List<Brand> GetBrands()
-    {
-        return _context.Brands.ToList();
-    }
+        public BrandService(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-    public Brand GetBrandById(int id)
-    {
-        return _context.Brands.Find(id);
-    }
+        public Brand GetBrandById(int brandId)
+        {
+            return _context.Brands.Find(brandId);
+        }
 
-    public List<Product> GetProductsByBrandId(int id)
-    {
-        return _context.Products.Where(p => p.BrandId == id).ToList();
+        public List<Brand> GetBrands()
+        {
+            return _context.Brands.ToList();
+        }
+
+        public List<Product> GetProductsByBrand(int brandId)
+        {
+            return _context.Products
+                .Where(x => x.BrandId == brandId)
+                .ToList();
+        }
     }
 }

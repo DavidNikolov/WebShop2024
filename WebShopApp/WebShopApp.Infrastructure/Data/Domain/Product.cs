@@ -31,5 +31,5 @@ public class Product
     
     public decimal Discount { get; set; }
     
-    public IEnumerable<Order> Orders { get; set; } = new List<Order>();
+    public virtual IEnumerable<Order> Orders { get; set; } = new List<Order>();
 }

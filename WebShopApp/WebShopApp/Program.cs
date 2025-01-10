@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using WebShop2024.Core.Services;
 using WebShopApp.Core.Contracts;
 using WebShopApp.Core.Services;
 using WebShopApp.Infrastructure.Data;
@@ -37,9 +38,7 @@ public class Program
         //Services
         builder.Services.AddTransient<ICategoryService, CategoryService>();
         builder.Services.AddTransient<IBrandService, BrandService>();
-        
-        
-        
+        builder.Services.AddTransient<IProductService, ProductService>();
         var app = builder.Build();
         app.PrepareDatabase();
 
